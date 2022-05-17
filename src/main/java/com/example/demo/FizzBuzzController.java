@@ -43,7 +43,7 @@ public class FizzBuzzController {
 		
 		mv.addObject("result", r);
 		}
-		
+		mv.addObject("num", num);
 		
 		mv.setViewName("index");
 		return mv;
