@@ -38,12 +38,16 @@ public class FizzBuzzController {
 			r+="Buzz! ";
 		}
 		if (num % 7 == 0) {
-			r+="Ass! ";
+			r+="Ass! aaaaa";
 		}
 		
 		mv.addObject("result", r);
 		}
-		
+		mv.addObject("num", num);
+		mv.addObject("numf", num);
+		mv.addObject("num", num);
+		mv.addObject("numf", num);
+		mv.addObject("numffaf", num);
 		
 		mv.setViewName("index");
 		return mv;
